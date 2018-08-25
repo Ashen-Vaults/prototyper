@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IWeapon 
+public interface IPrototypable
 {
-    void Attack();
+    void Mutate<T>(T data);
 }
